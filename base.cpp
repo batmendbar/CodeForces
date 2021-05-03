@@ -60,9 +60,7 @@ int main() {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     // freopen("input.txt", "r", stdin);
-    int T;
-    cin >> T;
-    while (T--) solve();
+    int T; cin >> T; while (T--) solve();
 }
 
 void solve() {
