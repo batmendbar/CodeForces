@@ -10,7 +10,6 @@ typedef vector<int> vi;
 #define ROF(i,a,b) for (int i = b-1; i >= a; i--)
 #define itr(v) for(int x : v) 
 
-
 // pair
 typedef pair<int, int> pi;
 #define mp make_pair
@@ -54,7 +53,11 @@ vi sieve(int nn) { // returns vector
     return primes;
 }
 
-void solve();
+//------------------------------------------------------
+
+void solve() {
+
+}
 
 int main() {
     ios_base::sync_with_stdio(0);
@@ -63,6 +66,5 @@ int main() {
     int T; cin >> T; while (T--) solve();
 }
 
-void solve() {
 
-}
+//freopen арилгахаа мартаж болохгүй
