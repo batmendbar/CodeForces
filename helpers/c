@@ -1,3 +1,3 @@
 #!/bin/zsh
 
-g++ -O2 -std=c++17 ../solutions/a.cpp -o x.out; ./r
+g++ -O2 -std=c++17 ../solutions/c.cpp -o x.out; ./r
