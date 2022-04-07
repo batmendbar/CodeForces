@@ -15,6 +15,7 @@ const int N = (1e5)+5;
 // vector
 typedef vector<int> vi;
 typedef vector<long long> vll;
+typedef vector<pair<int, int> > vp;
 #define pb push_back
 
 // pair
