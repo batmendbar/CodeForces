@@ -74,8 +74,7 @@ ll C(ll n, ll k) {
     return ans;
 }
 
-vi sieve(int nn) { // returns vector
-    vi primes;
+vi sieve(vector<int>& primes, int nn) { // returns vector
     vector<bool> used_sv(nn, 0);
     for (int i = 2; i < nn; i++) {
         if (used_sv[i]) continue;
@@ -84,7 +83,6 @@ vi sieve(int nn) { // returns vector
             used_sv[j] = 1;
         }
     }
-    return primes;
 }
 
 
