@@ -32,6 +32,14 @@ void print(vector<myType>& v) {
     cout << '\n';
 }
 
+template <class myType>
+void read(vector<myType>& v, int n) {
+    v.resize(n);
+    for (int i = 0; i < n; i++) {
+        cin >> v[i]; 
+    }
+}
+
 ll fpow(ll base,ll power){
     ll ans=1;
     while(power>0){
