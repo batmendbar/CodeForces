@@ -24,6 +24,14 @@ typedef pair<int, int> pi;
 #define f first
 #define s second
 
+template <class myType>
+void print(vector<myType>& v) {
+    for (myType x : v) {
+        cout << x << ' ';
+    }
+    cout << '\n';
+}
+
 ll fpow(ll base,ll power){
     ll ans=1;
     while(power>0){
