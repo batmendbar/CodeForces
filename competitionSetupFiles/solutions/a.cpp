@@ -10,7 +10,6 @@ const int IINF = 2e9 + 5;
 const long long LLINF = (long long) (9e18) + 5;
 const int dx[4] = {1,0,-1,0};
 const int dy[4] = {0,1,0,-1};
-const int N = (1e5)+5;
 
 // vector
 typedef vector<int> vi;
@@ -19,7 +18,7 @@ typedef vector<pair<int, int> > vp;
 #define pb push_back
 
 // pair
-typedef pair<int, int> pi;
+typedef pair<int, int> pii;
 #define mp make_pair
 #define F first
 #define S second
@@ -86,8 +85,7 @@ void sieve(vector<int>& primes, int nn) { // returns vector
 }
 
 
-
-
+const int N = (1e5)+5;
 //------------------------------------------------------
 
 
