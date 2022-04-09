@@ -22,8 +22,9 @@ typedef pair<int, int> pii;
 
 template <class myType>
 void print(vector<myType>& v) {
-    for (myType x : v) {
-        cout << x << ' ';
+    int sz = v.size();
+    for (int i = 0; i < sz; i++) {
+        cout << v[i] << ' ';
     }
     cout << '\n';
 }
