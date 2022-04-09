@@ -21,8 +21,8 @@ typedef vector<pair<int, int> > vp;
 // pair
 typedef pair<int, int> pi;
 #define mp make_pair
-#define f first
-#define s second
+#define F first
+#define S second
 
 template <class myType>
 void print(vector<myType>& v) {
