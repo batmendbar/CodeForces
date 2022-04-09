@@ -12,7 +12,7 @@ const int dy[4] = {0,1,0,-1};
 
 typedef vector<int> vi;
 typedef vector<long long> vll;
-typedef vector<pair<int, int> > vp;
+typedef vector<pair<int, int> > vpii;
 #define pb push_back
 
 typedef pair<int, int> pii;
