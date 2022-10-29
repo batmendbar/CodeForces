@@ -1,9 +1,0 @@
-#!/bin/zsh
-
-chmod +x r
-chmod +x rr
-chmod +x a
-chmod +x b
-chmod +x c
-chmod +x d
-chmod +x e
