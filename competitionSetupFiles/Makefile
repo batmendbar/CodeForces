@@ -25,10 +25,26 @@ f:
 	g++ -std=c++17 -O2 -o z.out f.cpp
 	./z.out input.txt
 
+a2:
+	g++ -std=c++17 -O2 -o z.out a2.cpp
+	./z.out input.txt
+
+b2:
+	g++ -std=c++17 -O2 -o z.out b2.cpp
+	./z.out input.txt
+
 c2:
 	g++ -std=c++17 -O2 -o z.out c2.cpp
 	./z.out input.txt
 
 d2:
 	g++ -std=c++17 -O2 -o z.out d2.cpp
+	./z.out input.txt
+
+e2:
+	g++ -std=c++17 -O2 -o z.out e2.cpp
+	./z.out input.txt
+
+f2:
+	g++ -std=c++17 -O2 -o z.out f2.cpp
 	./z.out input.txt

@@ -12,21 +12,23 @@ using vll = vector<long long>;
 using vvll = vector<vector<long long> >;
 using pll = pair<long long, long long>;
 #define all(x) x.begin(), x.end()
+#define rep(i,L,R) for (int i = L; i < R; i++)
 
 template <class myType>
-void print(vector<myType> &v);
+void print(vector<myType> &v, ll printCount);
 template <class myType>
-void read(vector<myType> &v, int n);
+void read(vector<myType> &v, ll n);
 ll fpow(ll base, ll power);
 ll fact(ll n);
 ll C(ll n, ll k);
 ll INV(ll n);
-vll sieve(int nn);
+vll primes(int nn);
+
 
 void solve() {
-    int n;
+    ll n;
     cin >> n;
-    vll v;
+    vll v(n);
     read(v, n);
 }
 
@@ -89,7 +91,7 @@ ll INV(ll n) {
     return fpow(n, MOD-2);
 }
 
-vll sieve(int nn)
+vll primes(ll nn)
 {
     vll primes;
     vll used(nn+5, 0);
@@ -99,17 +101,16 @@ vll sieve(int nn)
         primes.push_back(i);
         for (int j = i; j <= nn; j += i)
         {
-            used[i] = 1;
+            used[j] = 1;
         }
     }
     return primes;
 }
 
 template <class myType>
-void print(vector<myType> &v)
+void print(vector<myType> &v, ll printCount)
 {
-    int sz = v.size();
-    for (int i = 0; i < sz; i++)
+    for (int i = 0; i < printCount; i++)
     {
         cout << v[i] << ' ';
     }
@@ -117,7 +118,7 @@ void print(vector<myType> &v)
 }
 
 template <class myType>
-void read(vector<myType> &v, int n)
+void read(vector<myType> &v, ll n)
 {
     v.resize(n);
     for (int i = 0; i < n; i++)

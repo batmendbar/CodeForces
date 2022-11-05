@@ -101,7 +101,7 @@ vll primes(ll nn)
         primes.push_back(i);
         for (int j = i; j <= nn; j += i)
         {
-            used[i] = 1;
+            used[j] = 1;
         }
     }
     return primes;
