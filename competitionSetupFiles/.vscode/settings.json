@@ -5,6 +5,24 @@
 		"list": "cpp",
 		"string": "cpp",
 		"valarray": "cpp",
-		"vector": "cpp"
+		"vector": "cpp",
+		"iostream": "cpp",
+		"type_traits": "cpp",
+		"__bit_reference": "cpp",
+		"__node_handle": "cpp",
+		"atomic": "cpp",
+		"bitset": "cpp",
+		"chrono": "cpp",
+		"cstddef": "cpp",
+		"filesystem": "cpp",
+		"limits": "cpp",
+		"locale": "cpp",
+		"optional": "cpp",
+		"random": "cpp",
+		"ratio": "cpp",
+		"regex": "cpp",
+		"scoped_allocator": "cpp",
+		"system_error": "cpp",
+		"tuple": "cpp"
 	}
 }
